@@ -1,7 +1,7 @@
 /*Navigation*/
 nav{
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 1fr;
 }
 nav {
     border: #a30000 2px solid;
@@ -50,7 +50,7 @@ nav li {
 /*footer*/
 footer{
     display:grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns:1fr ;
     width: 80%;
     border: #a30000 2px solid;
     column-gap: 10px;
@@ -86,12 +86,12 @@ p{
  /*index*/
 .content{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 10px;
 }
 .contentdata, .cont{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 10px;
 }
 
@@ -102,26 +102,25 @@ p{
     position: absolute;
     background-color: green;
     opacity: 50%;
-    width: 30%;
     padding: 20px;
     left: 20px;
     color: white;
 }
 .overlay p{
     color: white;
-    font-size: 100%;
+    font-size: 80%;
 }
 .overlay h3{
     text-decoration: underline;
     text-align: center;
     color: white;
-    font-size: 120%;
+    font-size: 90%;
 }
 .button{
- padding: 90px;
+ padding: 0;
 }
 button{
-    background:green;
+    background:#9662c4;
 }
 button h2:hover{
     color: #a30000;
@@ -143,6 +142,9 @@ h2{
 .flex h3{
     color: #0c3d67;
 }
+.images{
+    display: none;
+}
 /*Contact*/
 
 form{
@@ -158,14 +160,27 @@ textarea{
 label, input{
     padding: 10px;
 }
+.formImg, .iframe{
+    display: none;
+}
 /*Reservation*/
 table, tr ,th, td{
     border: #a30000 2px solid;
-    text-align: center;
-    width: 150px;
-   
+    text-align: center; 
 }
 table{
     width:70%
+}
+.reservationImg{
+    display: none;
+}
+
+/*River Guides*/
+.card{
+    border: 20px solid #a30000;
+    background-color: #eca400;
+}
+.count{
+    background-color: #524935;
 }
 

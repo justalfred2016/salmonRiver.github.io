@@ -1,9 +1,9 @@
-@media only screen and (min-width: 1024px) {
-/*Navigation*/
+@media only screen and (min-width: 800px) {
+
     nav ul {
     display: flex;
-}
-nav ul li {
+   }
+  nav ul li {
     flex: 1 1 100%;
 }
 .navigation li:first-child {
@@ -14,6 +14,51 @@ nav ul li {
     flex: 1 1 100%;
     text-align: center;
 }
-/*footer*/
+nav{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
 
+footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    width: 80%;
+    
+}
+ 
+ .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contentdata, .cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.images{
+    display: inline;
+}
+.button{
+    padding: 90px;
+   }
+   .overlay{
+    width: 20%;
+    padding: 20px;
+
+}
+button{
+    background:green;
+}
+.formImg, .iframe{
+    display: inline;
+}
+.reservationImg{
+    display: inline;
+}
+table, tr ,th, td{
+    width: 150px;
+}
+.table{
+    width: 100%;
+}
 }
