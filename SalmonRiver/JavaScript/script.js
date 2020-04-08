@@ -32,7 +32,7 @@ fetch(requestURL)
 
 
 
-   const pulled= "https://github.com/justalfred2016/justalfred2016.github.io/blob/master/Json/riverGuides.js"
+   const pulled= "https://github.com/justalfred2016/salmonRiver.github.io/blob/master/riverguides.json"
    fetch(pulled)
     .then(function(response) {
         return response.json();
