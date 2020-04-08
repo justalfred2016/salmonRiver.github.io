@@ -1,0 +1,171 @@
+/*Navigation*/
+nav{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+nav {
+    border: #a30000 2px solid;
+    margin: 0;
+    width: 100%;
+    border-radius: 20px 20px;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: #9662c4;
+    padding: 20px;
+}
+
+a:hover:not(.active) {
+    text-decoration: underline;
+    border-radius: 20px 20px;
+}
+
+nav li a.active {
+    color: #0c3d67;
+    border-radius: 20px 20px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    font-family: "Neucha";
+    text-align: left;
+    margin: 0;
+    font-size: 25px;
+}
+
+nav li:first-child {
+    display: block;
+}
+
+nav li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+/*footer*/
+footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    width: 80%;
+    border: #a30000 2px solid;
+    column-gap: 10px;
+    text-align: center;
+    box-shadow: blue 2px 2px -10px;
+}
+.socials{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+main, footer{
+    margin: auto;
+    width: 80%;
+}
+main img{
+    width: 100%;
+    border-radius: 20px 0 50px 0;
+}
+h1, h2, h3{
+    text-align: center;
+    color: #f58a07;
+    font-family: "Mitr";
+    font-size: 130%;
+
+}
+p{
+    color: #0c3d67;
+    font-size: 120%;
+    font-family: "Neucha";
+}
+
+ /*index*/
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+.contentdata{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.sidebar{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    background-color: green;
+    opacity: 50%;
+    width: 30%;
+    padding: 20px;
+    left: 20px;
+    color: white;
+}
+.overlay p{
+    color: white;
+    font-size: 100%;
+}
+.overlay h3{
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+    font-size: 120%;
+}
+.button{
+ padding: 90px;
+}
+button{
+    background:green;
+}
+button h2:hover{
+    color: #a30000;
+    font-size: 30px;
+
+}
+h2{
+    color: white;
+}
+.flex{
+    text-align: center;
+    border-radius: 20px 0 50px 0;
+    background-color: #eca400;
+    color: white;
+}
+.flex img{
+    border-radius: 20px 0 ;
+}
+.flex h3{
+    color: #0c3d67;
+}
+/*Contact*/
+
+form{
+    padding:20px;
+    width: 500px;
+}
+
+textarea{
+    width: 250px;
+    height: 150px;
+}
+
+label, input{
+    padding: 10px;
+}
+/*Reservation*/
+table, tr ,th, td{
+    border: #a30000 2px solid;
+    text-align: center;
+    width: 150px;
+   
+}
+table{
+    width:70%
+}
+
