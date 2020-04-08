@@ -1,4 +1,4 @@
-"employees":[
+{"employees":
     {"firstName":"James",
      "lastName":"baker",
      "Position":"CEO,Managing Director, Tour Guide",
@@ -23,4 +23,4 @@
      "Skill Level":"Beginner",
      "Motto":"Rapid are nature kisses for us"
     }
-  ]
+  }
