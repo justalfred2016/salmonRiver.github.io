@@ -32,44 +32,56 @@ fetch(requestURL)
 
 
 
-   const pulled= "https://github.com/justalfred2016/salmonRiver.github.io/blob/master/riverguides.json"
+   const pulled= "https://raw.githubusercontent.com/justalfred2016/salmonRiver.github.io/master/riverguides.json"
    fetch(pulled)
     .then(function(response) {
         return response.json();
     })
     .then(function(jsObject) {
       console.log(jsObject);
-      const prophets = jsonObject['prophets'];
-      for (let i = 0; i < prophets.length; i++) {
+      const employees = jsObject['employees'];
+      for (let i = 0; i < employees.length; i++) {
           let card = document.createElement('section');
-          let h2 = document.createElement('h2');
+          let h1 = document.createElement('h1');
 
-          h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+          h1.textContent = employees[i].firstName + ' ' + employees[i].lastName;
 
-          card.appendChild(h2);
+          card.appendChild(h1);
 
-          document.querySelector('div.cards').appendChild(card);
+          document.querySelector('div.cont').appendChild(card);
           //date of birth paragraph 
-          let place = document.createElement('p');
+          let age = document.createElement('p');
 
-          place.textContent = "Date of birth:" + " " + prophets[i].birthdate;
+          age.textContent = "Age:" + " " + employees[i].Age;
 
-          card.appendChild(place);
+          card.appendChild(age);
 
-          document.querySelector('div.cards').appendChild(card);
+          document.querySelector('div.cont').appendChild(card);
           //Place of birth
-          let birth = document.createElement('p');
-          birth.textContent = "Place of birth:" + " " + prophets[i].birthplace;
+          let position = document.createElement('p');
+          position.textContent = "Position:" + " " + employees[i].Position;
 
-          card.appendChild(birth);
+          card.appendChild(position);
 
-          document.querySelector('div.cards').appendChild(card)
+          document.querySelector('div.cont').appendChild(card)
+          let exp = document.createElement('p');
+          exp.textContent = "Experience:" + " " + employees[i].Experience;
+
+          card.appendChild(exp);
+
+          document.querySelector('div.cont').appendChild(card)
+          let Motto = document.createElement('p');
+          Motto.textContent = "Motto:" + " " + employees[i].Motto;
+
+          card.appendChild(Motto);
+
+          document.querySelector('div.cont').appendChild(card)
 
           let image = document.createElement('img');
-          image.setAttribute('src', prophets[i].imageurl);
-          image.setAttribute("alt", prophets[i].name + " " + prophets[i].lastname + " " + "-" + prophets[i].order);
+          image.setAttribute('src', employees[i].img);
+          image.setAttribute("alt", employees[i].firstName + " " + employees[i].lastName);
           card.appendChild(image);
 
-          document.querySelector('div.cards').appendChild(card);
+          document.querySelector('div.cont').appendChild(card);
       }
   });
