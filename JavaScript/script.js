@@ -5,7 +5,7 @@ hambutton.addEventListener("click",toggleMenu,false);
 function toggleMenu(){
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 };
-const requestURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=47c4e1b3676af835b875196a9383c9fd'
+const requestURL = 'https://api.openweathermap.org/data/2.5/weather?id=5606275&units=imperial&APPID=47c4e1b3676af835b875196a9383c9fd'
 fetch(requestURL)
     .then(function(response) {
         return response.json();

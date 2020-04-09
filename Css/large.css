@@ -55,9 +55,7 @@ button{
 .reservationImg{
     display: inline;
 }
-table, tr ,th, td{
-    width: 150px;
-}
+
 .table{
     width: 100%;
 }
