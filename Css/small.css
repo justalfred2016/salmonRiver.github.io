@@ -47,6 +47,9 @@ nav li {
 .responsive li {
     display: block;
 }
+.logoDesign{
+width: 90%;
+}
 /*footer*/
 footer{
     display:grid;
@@ -145,12 +148,11 @@ h2{
 .images{
     display: none;
 }
-/*Contact*/
+/*Contact
 
-form{
-    padding:0;
-    width: 0;
-}
+*/
+
+   
 
 textarea{
     width: 250px;
