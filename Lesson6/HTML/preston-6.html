@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <meta name="description" content="The form for reporting the weather conditions in the tri-state area.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="../CSS/small.css">
+    <link rel="stylesheet" href="../CSS/medium.css">
+    <link rel="stylesheet" href="../CSS/large.css">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Baloo+Bhaijaan%7cSriracha&display=swap'>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img id="logoImg" src="/Lesson7/Images/LogoDesign.jpg" alt="Weather debrief logo">
+        </div>
+        <div class="headline">
+            <h1>Weather Debrief</h1>
+            <h2 class="motto">We know best.</h2>
+        </div>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776;Menu </a> </li>
+            <li><a class="active" href="/Lesson9/Html/index.html">Home</a></li>
+            <li><a href="/Lesson6/HTML/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="/Lesson8/Html/stormcenter.html">Storm Center</a></li>
+            <li><a href="/Lesson7/Html/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="sec1">
+        <h2>Preston Idaho</h2>
+         <div class="boss">
+           
+           <section class="overlay">
+               <h4>Weather Summary</h4>
+               <p>Currently: Sunny</p>
+               <p>High: <span id="temp">54</span>°F</p>
+               <p>Humidity:85%</p>
+               <p>Wind Speed: <span id="windSpeed">12</span>mph</p>
+               <p>Wind Chill:<span id="chill">12</span> °F</p>
+           </section>
+           <picture>
+            <source srcset= "../images/FrancklinMedium.jpeg" media="(min-width:520px) and (max-width:699px)">
+            <source srcset="../images/FrancklinLarge.jpeg" media="(min-width: 971px)">
+            <img class="back" src="../images/FranklinSmall.jpeg" alt="beautiful sunset"> 
+           </picture>
+        </div>
+        </section>
+
+        <section class="sec2">
+            <h3>5 days Weather Forecast</h3>
+
+          <div class="flex">
+	         <div class="col">
+		    <span class="label"> Day</span>
+		    <span class="data">Temperature</span>
+            </div>
+            <div class="col">
+                <span class="label"> Day 1</span>
+                <span class="data">30</span>
+                </div>
+	<div class="col">
+		<span class="label"> Day 2</span>
+		<span class="data">30</span>
+	</div>
+	<div class="col">
+		<span class="label">Day 3</span>
+		<span class="data"> 25</span>
+	</div>
+	<div class="col">
+		<span class="label">Day 4</span>
+		<span class="data">30</span>
+	</div>
+	<div class="col">
+		<span class="label"> Day 5</span>
+		<span class="data">30</span>
+	</div>
+</div>
+    </section>
+    <section class="sec3">
+       <div class="articleDiv">
+       <article>
+        <img class="lightning" src="/Lesson5/images/lightning.png" alt="lightning">
+           <h3>Article heading</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem numquam atque maxime ullam doloribus cum commodi magni reprehenderit excepturi! Aspernatur doloribus ex dolorum error voluptatibus excepturi asperiores ea maiores incidunt, quo vel, fugit accusantium repellendus quisquam exercitationem quam, soluta facilis sed id nihil temporibus distinctio. Quisquam repellat minus adipisci distinctio asperiores, provident quod omnis explicabo vel voluptate sit totam repudiandae!</p></article>
+        </div>
+</section>
+<section class="sec4">
+           <div class="contactInfo">
+            <p>+1(208)2031919</p>
+            <p>  387 S 4th W St
+                Preston, Idaho</p>
+                <a class="socialmedia" href="https://www.facebook.com/" target="_blank"><img class="icon" src="/Lesson6/images/facebook.png" alt="facebook"></a>
+                <a class="socialmedia" href="https://www.twitter.com/" target="_blank"><img class="icon" src="/Lesson6/images/twitter.png" alt="twitter"></a>
+                <a class="socialmedia" href="https://www.youtube.com/" target="_blank"><img class="icon" src="/Lesson6/images/youtube.png" alt="Youtube"></a> 
+            </div>
+            <div class="map">
+                <img class="mapIcon" src="/Lesson6/images/prestonmap.png" alt="preston map">
+            </div>
+       </section>
+    </main>
+    
+            
+       <footer>
+        <p class="bottom">&copy; 2020 | Shimani A. Tlokotsi| South Africa |
+            <a id="byui" href="https://www.byui.edu/online" target="Blank">BYUI Online Learning</a> </p>
+            <p class="bottom">Last Modified <span id="last"></span></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/Lesson6/JavaScript/script.js"></script>
+    <script src="/Lesson6/JavaScript/banner.js"></script>
+    <script src="/Lesson6/JavaScript/windChill.js"></script>
+    
+   
+</body>
+</html>

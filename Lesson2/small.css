@@ -1,0 +1,51 @@
+
+
+.wrapper {
+	display: grid;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 15px;
+    border: none;
+}
+div:nth-child(3){
+    grid-column: span 1;
+    }
+
+h1,
+h2,
+h3{
+    font-size: 30px;
+    font-family:"Concert One";
+    color:darkgreen;
+    text-align: center;
+}
+
+ h2{
+     font-family:"Righteous";
+     font-size: 25px;
+ }
+ h3{font-size: 15px;}
+ .solved{font-size: 23.29px;}
+
+ p{
+     font-family: 'sniglet';
+ }
+ img{
+     max-width: 97%;
+     padding: 10px;
+ }
+header, footer{
+    background-color: peachpuff;
+    padding: 15px; 
+    border: 1px solid green; 
+}
+footer{
+    align-self: auto;
+}
+div{
+    border: green solid 1px;
+    text-align: center;
+    padding: 5px;
+    max-width: 960px;
+}
+body{max-width: 960px;text-align: center;margin: auto;}

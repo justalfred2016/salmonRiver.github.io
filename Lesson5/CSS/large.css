@@ -1,0 +1,83 @@
+
+ @media only screen and (min-width: 45rem){
+    *{box-sizing: border-box;}
+    html{
+        max-width: 60rem;
+        margin: auto;}
+
+    h1{font-size: 45px;}
+    nav ul{display: flex;line-height:50px}
+    nav ul li{flex: 1 1 100%;
+    }
+    .navigation li:first-child{
+        display: none;
+    }
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;
+    }
+    .articleDiv img{
+        float: right;
+    }
+    .contactInfo{
+        display: inline;
+        padding: 15px;
+        min-width: 32.5rem;
+    }
+    .socialmedia{
+        padding: 10px;
+        width: 100%;
+      }
+      #back{
+     min-width: 45em;
+
+      }
+      .boss{
+        position: relative;
+        min-width:100%;
+
+      }
+      .flex {
+        min-width: 36rem;
+        margin: auto;
+    }
+    .articleDiv{
+        max-width: 45rem;
+    }
+    .sec1{
+        min-width:40rem ;
+        margin: 0 auto;
+    }
+
+ header{
+     display:inline-flex;
+     margin: auto;
+     text-align: center;
+ }
+ .sec4{
+     display: inline-flex;
+     margin: auto;
+ }
+ main{
+     width: 45rem;
+ }
+.sec2{
+    display: block;
+    margin: auto;
+}
+.map{
+    display: block
+}
+
+
+
+
+
+
+
+
+
+
+
+ }
+                                            

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fish Haven</title>
+    <meta name="description" content="The form for reporting the weather conditions in the tri-state area.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="/Lesson10/CSS/small.css">
+    <link rel="stylesheet" href="/Lesson10//CSS/medium.css">
+    <link rel="stylesheet" href="/Lesson10//CSS/large.css">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Baloo+Bhaijaan%7cSriracha&display=swap'>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img id="logoImg" src="/Lesson7/Images/LogoDesign.jpg" alt="Weather debrief logo">
+        </div>
+        <div class="headline">
+            <h1>Weather Debrief</h1>
+            <h2 class="motto">We know best.</h2>
+        </div>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776;Menu </a> </li>
+            <li><a  href="/Lesson11/index.html">Home</a></li>
+            <li><a href="/Lesson11/preston.html">Preston</a></li>
+            <li><a href="/Lesson11/sodaSprings.html">Soda Springs</a></li>
+            <li><a class="active" href="/Lesson11/fishHaven.html">Fish Haven</a></li>
+            <li><a href="/Lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="/Lesson11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="sec1">
+        <h2>Fish Haven, Idaho</h2>
+         <div class="boss">
+           
+           <section class="overlay">
+               <h4>Weather Summary</h4>
+               <p>Currently: <span id="weather"></span></p>
+               <p>High: <span id="temp"></span>°F</p>
+               <p>Humidity: <span id="humidity"></span>%</p>
+               <p>Wind Speed: <span id="windSpeed"></span>mph</p>
+               <p>Wind Chill: <span id="chill"></span> °F</p>
+           </section>
+           <picture>
+            <source srcset= "/Lesson10/Fishhaven/Images/fishHavenviewlarge.jpg" media="(min-width:520px) and (max-width:699px)">
+            <source srcset="/Lesson10/Fishhaven/Images/fishHavenviewmedium.jpg" media="(min-width: 971px)">
+            <img class="back" src="/Lesson10/Fishhaven/Images/fishHavenviewsmall.jpg" alt="beautiful sunset"> 
+           </picture>
+        </div>
+        </section>
+
+        <section class="sec2">
+            <h3>5 days Weather Forecast</h3>
+
+          <div class="flex">
+	         
+            <div id="col"><span>
+                <span id="label1"> Day 1</span>
+                <span><img id="icon1" src="../images/facebook.png"></span>
+                <span id="data1">30</span>
+                </div>
+	<div id="col">
+        <span id="label2"> Day 2</span>
+        <span><img id="icon2" src="../images/facebook.png"></span>
+		<span id="data2">30</span>
+	</div>
+	<div id="col">
+        <span id="label3">Day 3</span>
+        <span><img id="icon3" src="../images/facebook.png"></span>
+		<span id="data3"> 25</span>
+	</div>
+	<div id="col">
+        <span id="label4">Day 4</span>
+        <span><img id="icon4" src="../images/facebook.png"></span>
+		<span id="data4">30</span>
+	</div>
+	<div id="col">
+        <span id="label5"> Day 5</span>
+        <img id="icon5" src="../images/facebook.png"></span>
+		<span id="data5">30</span>
+	</div>
+</div>
+    </section>
+    <section class="sec3">
+       <div class="articleDiv">
+       <article>
+        
+           <h2>Catch and Release</h2>
+           <h3>Article by <span class="italics"> Shimani Alfred Tlokotsi</span></h3>
+           <p>We are looking forward to a great spring as we remind everyone to change their clock setting with mountain standard time upon us. We will always keep you informed about the weather changes that will affect our activities. We will be having a couple of activities in the our town so please follow this page for more information. Bring all your friends and family to enjoy the beauty of our city and create memories that will last you a lifetime.</p></article>
+        </div>
+        <div class="imageDiv">
+            <img class="lightning" src="/Lesson10/Fishhaven/Images/fishHavenArticle.jpg" alt="lightning">
+        </div>
+</section>
+<section class="sec4">
+           <div class="contactInfo">
+            <p>+1(208)2031919</p><br>
+            <p>  387 S 4th W St
+                Preston, Idaho</p><br>
+                <a class="socialmedia" href="https://www.facebook.com/" target="_blank"><img class="icon" src="/Lesson6/images/facebook.png" alt="facebook"></a>
+                <a class="socialmedia" href="https://www.twitter.com/" target="_blank"><img class="icon" src="/Lesson6/images/twitter.png" alt="twitter"></a>
+                <a class="socialmedia" href="https://www.youtube.com/" target="_blank"><img class="icon" src="/Lesson6/images/youtube.png" alt="Youtube"></a> 
+            </div>
+            <div class="map">
+                <img class="mapIcon" src="/Lesson10/Fishhaven/Images/FishHaven.PNG" alt="Fish Haven map">
+            </div>
+       </section>
+    </main>
+    
+            
+       <footer>
+        <p class="bottom">&copy; 2020 | Shimani A. Tlokotsi| South Africa |
+            <a id="byui" href="https://www.byui.edu/online" target="Blank">BYUI Online Learning</a> </p>
+            <p class="bottom">Last Modified <span id="last"></span></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/Lesson6/JavaScript/script.js"></script>
+    <script src="/Lesson6/JavaScript/banner.js"></script>
+    <script src="/Lesson10/Fishhaven/JavaScript/jsonapi.js"></script>
+    
+   
+</body>
+</html>

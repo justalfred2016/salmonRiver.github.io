@@ -1,0 +1,26 @@
+footer, header{display: flex; flex-flow: column;background-color:#250902;text-align: center;}
+nav{background-color:#250902;line-height: 30px;}
+nav ul{list-style-type: none;margin: 0;padding: 0;overflow: hidden;font-family: "sriracha";}
+nav li a{display:block;text-align: center;text-decoration: none;color: #badb29;}
+a:hover{background-color: #c91642;}
+.active{background-color: blue;}
+body{text-align: center;}
+table, th,tr{border: solid #c91642;align-items: center;max-width: 540px;}
+h1,h2,h3{color:#c91642; font-size: 35px;font-family:"baloo Bhaijaan";}
+img{width: 375px;}
+p{color:#c91642;font-family: "sriracha";font-size: 18px;}
+.bottom{color: #badb29;}
+main{max-width: 620px;margin: auto;align-content: center;}
+a{color: #badb29;}
+footer,header, main, nav{margin: auto;max-width: 620px;}
+.colorscheme{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 10px;
+}
+.color1{background-color: #c91642;}
+.color2{background-color: #250902;}
+.color3{background-color: #330036;}
+.color4{background-color: #badb29;}
+.color5{background-color: #c91642;}
+#white{color: white;}

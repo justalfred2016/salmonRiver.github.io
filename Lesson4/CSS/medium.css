@@ -1,0 +1,15 @@
+@media only screen and (min-width: 450px){
+    header{width: 700px;}
+    h1,h3{font-size: 45px;}
+    nav ul{display: flex;line-height:50px}
+    nav ul li{flex: 1 1 100%;}
+    .navigation li:first-child{
+        display: none;
+    }
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;
+    }
+    .motto{font-size:20px;}
+
+    }

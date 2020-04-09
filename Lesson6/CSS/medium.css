@@ -1,0 +1,45 @@
+@media only screen and (min-width: 454px){
+    nav ul{display: flex;}
+    nav ul li{flex: 1 1 100%;
+    }
+    .navigation li:first-child{
+        display: none;
+    }
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+#logoImg{
+    width: 100px;
+    height: 50px;
+    margin-left: 50%;
+    margin-top: 10%;
+    
+}
+.articleDiv img{
+    float: right;
+}
+.socialmedia{
+    padding: 10px;
+    width: 100%;
+
+  }
+  .boss{
+    position: relative;
+    width:100%;
+
+  }
+  .flex {
+    width: 100%;
+}
+.articleDiv{
+    width: 100%;
+}
+
+.map{
+    display: block
+}
+}
+

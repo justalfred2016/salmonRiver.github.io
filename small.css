@@ -1,0 +1,49 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: navy;
+    font-size: 30px;
+    font-family: "Permanent Marker";
+    margin: 10px;
+}
+h2{
+    font-size: 25px;
+}
+
+header,
+footer {
+    background-color:pink;
+    text-align: center;
+    padding: 20px;
+    max-width: 620px;
+    margin: auto;
+}
+main{
+    margin: auto;
+    max-width: 620px;
+}
+
+img {
+    border-radius: 30px;
+    filter: drop-shadow( 1px 1px 5px black);
+}
+
+p,
+#byui {
+    color:black;
+    font-family: "Acme";
+    font-size: 15px;
+}
+
+ul,li {
+    font-family: "Roboto Mono";
+    color:black;
+    text-decoration-line: none;
+}
+a{
+    color: black;
+}

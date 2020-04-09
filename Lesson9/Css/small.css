@@ -1,0 +1,159 @@
+.headline,
+.logo {
+    display: block;
+    width: 40%;
+    text-align: left;
+}
+
+footer {
+    padding: 10px;
+    background-color: #250902;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+}
+
+#logoImg {
+    width: 100px;
+    height: 40px;
+    margin-top: 30px
+}
+main{
+    text-align: center;
+}
+
+nav {
+    background-color: #250902;
+    margin: 0;
+    width: 100%;
+    border-radius: 20px 20px;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: #badb29;
+    padding: 20px;
+    text-overflow: clip;
+}
+
+a:hover:not(.active) {
+    background-color: #c91642;
+}
+
+nav li a.active {
+    background-color: blue;
+    border-radius: 20px 20px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    font-family: "sriracha";
+    color: #250902;
+    text-align: left;
+    margin: 0;
+}
+
+nav li:first-child {
+    display: block;
+}
+
+nav li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 30px;
+    font-family: "Baloo Bhaijaan";
+    color: #c91642;
+}
+.home header{
+    text-align: center;
+}
+
+p,
+#byui {
+    padding: 10px;
+    font-family: "Sriracha";
+    color: #badb29;
+    text-align: center;
+    font-size: 14px;
+}
+
+.bold {
+    width: 100%;
+}
+
+.headline,
+.logo {
+    border: none;
+}
+
+
+
+.socials img{
+    width: 60px;
+
+}
+
+.content{
+    display: grid;
+    grid-template-columns:  1fr;
+    column-gap: 2px;
+    overflow: hidden;
+}
+
+.content h2{
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+.content h3{
+    font-size:15px;
+    color: black;
+    font-style: italic;
+    text-align: center;
+  }
+.content p{
+    font-size: 15px;
+    color: black;
+  }
+  .events p, .about{
+    border:blue 1px solid;
+    padding-top: 10px;
+    color: black;
+    font-size: 20px;
+
+}
+.flexy{
+    width:100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+
+.socials{
+    display: none;
+}
+.twitter{
+    display: none;
+}
+h3{
+   color: black;
+   font-size: 25px;
+}

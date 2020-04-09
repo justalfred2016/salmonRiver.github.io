@@ -1,0 +1,185 @@
+#message{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    background-color: #250902;
+}
+.sec2{
+    display: none;
+}
+.sec2, .sec3{
+    margin: auto;
+    padding: 30px 0;
+}
+
+
+footer{
+    padding: 10px;
+    background-color: #250902;
+    text-align: center;
+    max-width: 45rem;
+    margin: auto;
+}
+header{
+    display: inline-flex;
+}
+.overlay{
+    position: absolute;
+    border: teal 1px solid;
+    float: left;
+    width: 20rem;
+    margin-left: 10px;
+    text-align: center;
+    background-color:#c91642;
+    opacity: 40%; 
+    color:#badb29;
+
+}
+.boss{
+    position: relative;
+
+}
+.article{
+    display: block;
+    background-color: #badb29;
+    padding:  0 10px;
+}
+
+  .socialmedia{
+    padding: 10px;
+  }
+
+  .contactInfo{
+      display: block;
+      background-color: #c91642;
+      padding: 15px;
+      max-width: 375px;
+
+  }
+  .articleDiv p{
+      color: #c91642;
+  }
+  main{
+    margin: auto;
+    width: 375px;
+}
+#back{
+    width: 375px;
+    margin: auto;
+}
+
+nav{
+    background-color:#250902;
+    margin: 0;
+}
+nav li a{
+    display:block;
+    text-decoration: none;
+    color: #badb29;
+    padding: 20px;
+}
+a:hover{
+    background-color: #c91642;
+}
+a:active{
+    color: blue;
+}
+.navigation{
+    list-style: none;
+    padding: 0;
+    font-family: "sriracha";
+    color: #250902;
+    text-align: left;
+    margin: 0;
+}
+nav li:first-child{
+    display: block;
+}
+nav li{
+    display: none;
+}
+.responsive li{
+    display: block;
+}
+
+hr{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+h1,h2,h3{
+    color:#c91642; 
+    font-size:2rem;
+    font-family:"baloo Bhaijaan";
+    text-align: center;
+}
+div h3{
+    color: #250902;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    color:#badb29;
+    font-family: "sriracha";
+    font-size: 1rem;
+    padding: 0;
+}
+a{
+    color: #badb29;
+}
+article{
+    color: #c91642;
+    font-weight: bolder;
+    font-family: "sriracha";
+}
+.articleDiv{
+    max-width: 375px;
+}
+.contactInfo p, .overlay p{
+    color:whitesmoke;
+}
+
+
+    
+#logo{
+    padding:0px;
+}
+
+.icon{
+    padding: 20px;
+}
+
+  .flex {
+	display: flex;
+    flex-direction: row;
+    max-width: 375px;
+    margin: auto;
+    margin-left: 0;
+}
+
+.col {
+	flex: 1 1 100%;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	text-align: center;
+}
+
+.flex div:last-child {
+	border-right: 1px solid #333;
+}
+
+.label {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+}
+.map{
+    display: none
+}

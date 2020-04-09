@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Rubik+Mono+One|Sigmar+One&display=swap');
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: "Bowlby One SC";
+    width: 100%;
+    opacity:0.5;
+}
+
+div{
+    width: 50%;
+    margin: auto;
+    border: lightcoral 3px solid;
+    background-image: url(../Images/Beaut.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+P{
+    font-family: cursive;
+    color: royalblue;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+}

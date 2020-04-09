@@ -1,0 +1,29 @@
+
+ @media only screen and (min-width: 1024px){
+    nav ul{display: flex;}
+    nav ul li{flex: 1 1 100%;
+    }
+    .navigation li:first-child{
+        display: none;
+    }
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    #logoImg{
+        width: 100px;
+        height: 50px;
+        margin-left: 80%;
+        margin-top: 30px;
+    }
+
+ 
+ main, footer{
+     width: 1000px;
+     margin: auto;
+ }
+ label{
+    width: 500px;
+ }}
+                                            

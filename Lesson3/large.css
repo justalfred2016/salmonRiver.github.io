@@ -1,0 +1,8 @@
+
+@media only screen and (min-width: 450px){
+#logo{float: left;padding:10px;width: 150px;bottom: 80px;}
+header{display: flex;}
+h1,h2,h3{font-size: 30px;}
+nav ul{display: flex;}
+nav ul li{flex: 1 1 100%;}
+}

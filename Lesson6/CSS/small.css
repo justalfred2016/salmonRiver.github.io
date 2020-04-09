@@ -1,0 +1,250 @@
+
+.headline,
+.logo {
+    display: block;
+    width: 40%;
+    text-align: left;
+}
+
+footer {
+    padding: 10px;
+    background-color: #250902;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+}
+
+#logoImg {
+    width: 100px;
+    height: 40px;
+    margin-top: 30px
+}
+main{
+    text-align: center;
+}
+
+nav {
+    background-color: #250902;
+    margin: 0;
+    width: 100%;
+    border-radius: 20px 20px;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: #badb29;
+    padding: 20px;
+    text-overflow: clip;
+}
+
+a:hover:not(.active) {
+    background-color: #c91642;
+}
+
+nav li a.active {
+    background-color: blue;
+    border-radius: 20px 20px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    font-family: "sriracha";
+    color: #250902;
+    text-align: left;
+    margin: 0;
+}
+
+nav li:first-child {
+    display: block;
+}
+
+nav li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 30px;
+    font-family: "Baloo Bhaijaan";
+    color: #c91642;
+}
+.home header{
+    text-align: center;
+}
+
+p,
+#byui {
+    padding: 10px;
+    font-family: "Sriracha";
+    color: #badb29;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.headline,
+.logo {
+    border: none;
+}
+
+
+
+
+h1,h2,h3{
+    color:#c91642; 
+    font-size:2rem;
+    font-family:"baloo Bhaijaan";
+    text-align: center;
+}
+h4{
+    color: whitesmoke;
+    text-decoration: underline ;
+    font-size:1rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    color:#badb29;
+    font-family: "sriracha";
+    font-size: 0.8rem;
+    padding: 0;
+}
+a{
+    color: #badb29;
+}
+article{
+    color: #c91642;
+    font-weight: bolder;
+    font-family: "sriracha";
+}
+.articleDiv{
+    display: inline;
+}
+.contactInfo p, .overlay p{
+    color:whitesmoke;
+}
+
+
+.icon{
+    padding: 20px;
+    width: 30px;
+}
+
+  .flex {
+	display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-left: 0;
+}
+
+.col {
+	flex: 1 1 100%;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+    text-align: center;
+    background-color: #badb29;
+}
+
+.flex div:last-child {
+	border-right: 1px solid #333;
+}
+
+.label {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+}
+
+#log {
+    width: 100%;
+
+}
+picture{
+    width: 100%;
+    margin: auto;
+}
+.back{
+    width: 100%;
+}
+
+.mapIcon{
+    width: 100%;
+}
+#message{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    background-color: #250902;
+}
+.sec2{
+    display: none;
+}
+.sec2, .sec3, .sec1, .sec4{
+    margin: auto;
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    border: teal 1px solid;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    background-color:#c91642;
+    opacity: 40%; 
+    color:#badb29;
+
+}
+.boss{
+    position: relative;
+    width: 100%;
+    margin: auto;
+
+}
+.article{
+    display: block;
+    background-color: #badb29;
+    padding:  0 10px;
+}
+
+  .socialmedia{
+    padding: 10px;
+  }
+
+  .contactInfo{
+      display: block;
+      background-color: #c91642;
+      width: 100%;
+      text-align: center;
+
+  }
+  .articleDiv p{
+      color: #c91642;
+}
+#back{
+    width: 100%;
+    margin: auto;
+}
+.bold {
+    width: 100%;
+}

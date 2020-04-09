@@ -1,0 +1,97 @@
+@media only screen and (min-width: 1024px) {
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    #logoImg {
+        width: 100px;
+        height: 50px;
+        margin-left: 80%;
+        margin-top: 30px;
+    }
+    main,
+    footer {
+        width: 1070px;
+        margin: auto;
+    }
+    iframe {
+        width: auto;
+        height: auto;
+    }
+   .flex, .flex2, .flex3{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    
+        
+    }
+
+    .content h2{
+      font-size: 30px;
+      color: black;
+      text-align: center;
+      text-shadow: blue 3px 3px 3px;
+    }
+    .content h3{
+        font-size:15px;
+        color: black;
+        font-style: italic;
+        text-align: center;
+      }
+    .content p{
+        font-size: 15px;
+        color: black;
+      }
+
+   
+    .socials {
+     box-shadow:grey 1px 1px 1px;
+  
+    }
+    .addition {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+        border-top: mediumblue 6px solid;
+    
+    }
+    .addition section {
+        text-align: center;
+    }
+    .addition :first-child {
+        grid-row: 1/span 2;
+        border-radius: 20px;
+    }
+    .events p, .about{
+        border:blue 1px solid;
+        padding-top: 10px;
+        color: black;
+        font-size: 20px;
+
+    }
+    .content{
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+        
+    }
+    .contentdata{
+        display: inline;
+        border: blue solid 1px;
+            border-radius: 30px;
+            overflow: hidden;
+        }
+        
+  .aboutus, .twitter{
+      display: block;
+  }
+}

@@ -1,0 +1,46 @@
+@media only screen and (min-width: 378px){
+   *{box-sizing: border-box;}
+
+   html{
+    max-width: 60rem;
+    margin: auto;
+}
+.articleDiv img{
+    float: right;
+}
+.contactInfo{
+    display: inline;
+    padding: 15px;
+    min-width: 32.5rem;
+}
+.socialmedia{
+    padding: 10px;
+    width: 100%;
+  }
+  #back{
+ min-width: 50em;
+
+  }
+  .boss{
+    position: relative;
+    min-width:100%;
+
+  }
+  .flex {
+    min-width: 42rem;
+}
+.articleDiv{
+    max-width: 55rem;
+}
+.sec1{
+    min-width:50rem ;
+    margin: 0 auto;   
+
+}
+.map{
+    display: block
+}
+
+
+
+}
